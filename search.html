@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fruit List</title>
+  <link rel="stylesheet" href="style3.c">
+  <style>
+     body {
+      font-family: Arial, sans-serif;
+    }
+    #search-bar {
+      width: 50%;
+      padding: 10px;
+      font-size: 18px;
+      
+      border: 1px solid #ccc;
+    }
+    #fruit-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    #fruit-list li {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    #fruit-list li:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Fruit List</h1>
+  <input id="search-bar" type="search" placeholder="Search for a fruit...">
+  <ul id="fruit-list"></ul>
+
+  <script src="searchj.js"></script>
+</body>
+</html>
